@@ -12,5 +12,5 @@
 Minsk College of Business and Law (2013-2017) graduated: secondary special education (techical-programmist)
 BSUIR (2017-2021) graduated: higher education (Software engineer)
 8. A2
-Thank You!
+Thank for your work guys!
 
