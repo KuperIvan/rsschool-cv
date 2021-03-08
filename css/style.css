@@ -20,6 +20,9 @@ h2 {
   margin-bottom: 5px;
 }
 /* Styling header section {Start}*/
+.resume__header {
+  position: relative;
+}
 
 .header__menu {
   position: relative;
@@ -31,8 +34,9 @@ h2 {
 
 .resume__heading {
   position: absolute;
-  top: 10px;
-  left: 800p x;
+  top: 20px;
+  left: 800px;
+  z-index: 1;
 
   display: inline-block;
   align-self: center;
