@@ -10,6 +10,15 @@ body {
   overflow: hidden;
 }
 
+h5 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
 /* Styling header section {Start}*/
 
 .header__menu {
@@ -135,7 +144,7 @@ body {
 }
 
 .skills__group ul li {
-  margin-top: 60px;
+  margin-top: 10px;
   list-style: none;
 }
 
