@@ -33,14 +33,14 @@ Currently i taking courses by A1Q1, Junior QA Engineer, because i was very inter
 
 ## Education 
 * **Minsk College of Business**
- * _2013-2017_ (**PoIT**) 
- * There we tried some technologies like: 
-   * SQL
-   * 1C
-   * C#
-   * Little bit css/html
-   * Assembler
- * The diploma project was: _1C Automatization_;
+  * _2013-2017_ (**PoIT**) 
+  * There we tried some technologies like: 
+      * SQL
+      * 1C
+      * C#
+      * Little bit css/html
+      * Assembler
+   * The diploma project was: _1C Automatization_;
 * **Belarusian State University of Informatics and Radio electronics**
    * _2017-2020_ (**PoIT**)
    * There we tried: 
