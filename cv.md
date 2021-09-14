@@ -13,7 +13,7 @@ I have tried to make some websites at shopify, wordpress, it very interesting ex
 ## Skills:
  * HTML [wano9715@gmail.com](wano9715@gmail.com)
    * [HTMLAcademy](https://htmlacademy.ru/profile/id1499627/achievements)
-   ![html-academy-link](/assets/html_academy.png)
+![html-academy-link](/assets/html_academy.png)
     
  * CSS 
    * 
