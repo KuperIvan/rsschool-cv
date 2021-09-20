@@ -221,7 +221,9 @@ header {
 
 .freeCode__title {
   margin-bottom: 5px;
+  list-style: none;
   font-size: 2rem;
+  font-weight: 600;
 }
 
 .freeCodeCamp__list > li > a {
