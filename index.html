@@ -9,6 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Glory:wght@200;300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/monokai.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
   <title>KuperIvan_CV</title>
 </head>
 <body>
@@ -34,10 +37,23 @@
           <h2>Education: </h2>
           <ul class="user__info_list user__info_list-education">
             <li class="user__info_list-item"><pre><b>MCB</b> (Minsk College of Business):
-              2013-2017, PoIT
+              2013-2017, PoIT:
+              SQL
+              1C
+              C#
+              Little bit css/html
+              Assembler
+              The diploma project was: 1C Automatization;
             </pre></li>
             <li class="user__info_list-item"><pre><b>BSUIR</b> (Belarusian State University of Informatics and Radioelectronics):
-              2017-2021, PoIT
+              2017-2021, PoIT:
+              Algorithms (just a little bit)
+              Little bit web:
+              HTML
+              CSS
+              Computer Science
+              The diploma project was: IRC Chat of business communication:
+
             </pre></li>
             <ul class="freeCodeCamp__list">
               <h2> FreeCodeCamp: </h2>
@@ -58,41 +74,97 @@
               <figure>
                 <img src="assets/FCC/TechnicalDocumentation.png" alt="technical_page">
                 <figcaption>
-                  <div class="experience__title"></div>
-                  <div class="experience__subtittle">
-                  </div>
+                  <div class="experience__title">Technical Documentation Page</div>
+                  <!-- <div class="experience__subtittle">
+                  </div> -->
                 </figcaption>
               </figure>
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">2</a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">3</a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">4</a>
+            <a href="https://codepen.io/kuperivan/pen/eYgLEWZ" target="_blank" rel="noopener noreferrer">
+              <figure>
+                <img src="assets/FCC/formPage.png" alt="technical_page">
+                <figcaption>
+                  <div class="experience__title">Survey Form</div>
+                  <!-- <div class="experience__subtittle">
+                  </div> -->
+                </figcaption>
+              </figure>
+            </a>
+            <a href="https://codepen.io/kuperivan/pen/poRQvXv target="_blank" rel="noopener noreferrer">
+              <figure>
+                <img src="assets/FCC/landingPage.png" alt="technical_page">
+                <figcaption>
+                  <div class="experience__title">Landing Page</div>
+                  <!-- <div class="experience__subtittle">
+                  </div> -->
+                </figcaption>
+              </figure>
+            </a>
+            <a href="https://htmlacademy.ru/profile/id1499627" target="_blank" rel="noopener noreferrer">
+              <figure>
+                <img src="assets/FCC/html_academy.png" alt="technical_page">
+                <figcaption>
+                  <div class="experience__title">HTMl_Academy profile</div>
+                  <!-- <div class="experience__subtittle">
+                  </div> -->
+                </figcaption>
+              </figure>
+            </a>
+            <a class="grid__codewars" href="https://www.codewars.com/users/Ivan_Kuper" target="_blank" rel="noopener noreferrer">
+              <figure>
+                <img class="codewars__img" src="assets/FCC/codewars.png" alt="technical_page">
+                <figcaption>
+                  <div class="experience__title">codewars.com</div>
+                  <!-- <div class="experience__subtittle">
+                  </div> -->
+                </figcaption>
+              </figure>
+            </a>
           </div>
         </section>
 
         <section class="user__info user__info-code">
           <h2>Code Examples: </h2>
-          <ul class="user__info_list user__info_list-code">
-            <li class="user__info_list-item">1</li>
-            <li class="user__info_list-item">2</li>
-            <li class="user__info_list-item">3</li>
-          </ul>
+          <div>
+            <pre>
+              <code class="javascript">
+                function findShort(s){
+                  return parseInt(s.split(' ')
+                          .map((item) => item.length)
+                          .sort((a, b) => a - b)
+                          .slice(0, 1))
+                }
+              </code>
+            </pre>
+          </div>
         </section>
       </div>
       <aside>
         <section class="user__info user__info-contacts">
           <h2>Contacts</h2>
           <ul class="user__info_list user__info_list-contacts">
-            <li class="user__info_list-item">Telegram</li>
-            <li class="user__info_list-item">E-mail</li>
-            <li class="user__info_list-item">skype</li>
+            <li class="user__info_list-item">
+              <a href="https://t.me/stalker_ivan" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-telegram-plane"> Telegram </i>
+              </a>
+            </li>
+            <li class="user__info_list-item">
+              <a href="mailto:wano9715@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-envelope-open-text"> My E-mail </i>
+              </a>
+            </li>
+            <li class="user__info_list-item">
+              <a href="https://join.skype.com/invite/FfhG4E0g7h6C" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-skype"> Skype </i>
+              </a>
+            </li>
           </ul>
         </section>
         <section class="user__info user__info-skills">
           <h2>Skills</h2>
           <ul class="user__info_list user__info_list-skills">
             <li class="user__info_list-item">HTML</li>
-            <li class="user__info_list-item">css</li>
+            <li class="user__info_list-item">CSS</li>
             <li class="user__info_list-item">JS</li>
           </ul>
         </section>
@@ -119,6 +191,6 @@
       </div>
     </footer>
   </div>
-  <script src="https://kit.fontawesome.com/e024017558.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/e024017558.js" crossorigin="anonymous"></script>
 </body>
 </html>
