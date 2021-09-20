@@ -16,44 +16,61 @@
 </head>
 <body>
   <div class="container">
+    <div class="burger__menu">
+      <nav class="nav__menu">
+        <ul class="header__list">
+          <li class="item"><a href="#about_me">About_me</a></li>
+          <li class="item"><a href="#education">Education</a></li>
+          <li class="item"><a href="#experience">Experience</a></li>
+          <li class="item"><a href="#code">Code</a></li>
+        </ul>
+
+        <div class="burger">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+
+      </nav>
+    </div>
     <header>
       <div class="header__title">
         <h1 id="main_header"> Kupryianau Ivan </h1>
-        <h class="header__subtitle"> I'm beginner software developer </h>
+        <h2 class="header__subtitle"> I'm beginner software developer </h2>
       </div>
       <img class="profile__photo" src="assets/myPhoto.png" alt="profile-photo">
     </header>
 
     <main class="user__info_section">
       <div class="section__left">
-        <section class="user__info user__info-about_me">
+        <section class="user__info user__info-about_me" id="about_me">
           <h2>About Me</h2>
           <p> Hello, my name is Ivan, i’m 23 years old beginner software developer from Belarus. 
           <p>I have tried to make some websites at shopify, wordpress, it very interesting experience. Now i decide to learn “how to make it by my hands and fingers!”.</p> 
           <p>Currently i taking courses by A1Q1, Junior QA Engineer, because i was very interested how testing process looks like.</p>
         </section>
 
-        <section class="user__info user__info-education">
+        <section class="user__info user__info-education" id="education">
           <h2>Education: </h2>
           <ul class="user__info_list user__info_list-education">
             <li class="user__info_list-item"><pre><b>MCB</b> (Minsk College of Business):
-              2013-2017, PoIT:
-              SQL
-              1C
-              C#
-              Little bit css/html
-              Assembler
-              The diploma project was: 1C Automatization;
+2013-2017, PoIT:
+SQL
+1C
+C#
+Little bit css/html
+Assembler
+The diploma project was: 1C Automatization;
             </pre></li>
             <li class="user__info_list-item"><pre><b>BSUIR</b> (Belarusian State University of Informatics 
               and Radioelectronics):
-              2017-2021, PoIT:
-              Algorithms (just a little bit)
-              Little bit web:
-              HTML
-              CSS
-              Computer Science
-              The diploma project was: IRC Chat
+2017-2021, PoIT:
+Algorithms (just a little bit)
+Little bit web:
+HTML
+CSS
+Computer Science
+The diploma project was: IRC Chat
 
             </pre></li>
             <ul class="freeCodeCamp__list">
@@ -68,7 +85,7 @@
           </ul>
         </section>
 
-        <section class="user__info user__info-experience">
+        <section class="user__info user__info-experience" id="experience">
           <h2>Experience: </h2>
           <div class="user__info-grid">
             <a href="https://codepen.io/kuperivan/pen/KKaGgdE" target="_blank" rel="noopener noreferrer">
@@ -83,7 +100,7 @@
             </a>
             <a href="https://codepen.io/kuperivan/pen/eYgLEWZ" target="_blank" rel="noopener noreferrer">
               <figure>
-                <img src="assets/FCC/formPage.png" alt="technical_page">
+                <img src="assets/FCC/formPage.png" alt="form_page">
                 <figcaption>
                   <div class="experience__title">Survey Form</div>
                   <!-- <div class="experience__subtittle">
@@ -91,9 +108,9 @@
                 </figcaption>
               </figure>
             </a>
-            <a href="https://codepen.io/kuperivan/pen/poRQvXv target="_blank" rel="noopener noreferrer">
+            <a href="https://codepen.io/kuperivan/pen/poRQvXv" target="_blank" rel="noopener noreferrer">
               <figure>
-                <img src="assets/FCC/landingPage.png" alt="technical_page">
+                <img src="assets/FCC/landingPage.png" alt="landing_page">
                 <figcaption>
                   <div class="experience__title">Landing Page</div>
                   <!-- <div class="experience__subtittle">
@@ -103,7 +120,7 @@
             </a>
             <a href="https://htmlacademy.ru/profile/id1499627" target="_blank" rel="noopener noreferrer">
               <figure>
-                <img src="assets/FCC/html_academy.png" alt="technical_page">
+                <img src="assets/FCC/html_academy.png" alt="academy_page">
                 <figcaption>
                   <div class="experience__title">HTMl_Academy profile</div>
                   <!-- <div class="experience__subtittle">
@@ -113,7 +130,7 @@
             </a>
             <a class="grid__codewars" href="https://www.codewars.com/users/Ivan_Kuper" target="_blank" rel="noopener noreferrer">
               <figure>
-                <img class="codewars__img" src="assets/FCC/codewars.png" alt="technical_page">
+                <img class="codewars__img" src="assets/FCC/codewars.png" alt="codewars_page">
                 <figcaption>
                   <div class="experience__title">codewars.com</div>
                   <!-- <div class="experience__subtittle">
@@ -124,7 +141,7 @@
           </div>
         </section>
 
-        <section class="user__info user__info-code">
+        <section class="user__info user__info-code" id="code">
           <h2>Code Examples: </h2>
           <div>
             <pre>
@@ -141,7 +158,7 @@
         </section>
       </div>
       <aside>
-        <section class="user__info user__info-contacts">
+        <section class="user__info user__info-contacts" id="contacts">
           <h2>Contacts</h2>
           <ul class="user__info_list user__info_list-contacts">
             <li class="user__info_list-item">
@@ -161,7 +178,7 @@
             </li>
           </ul>
         </section>
-        <section class="user__info user__info-skills">
+        <section class="user__info user__info-skills" id="skills">
           <h2>Skills</h2>
           <ul class="user__info_list user__info_list-skills">
             <li class="user__info_list-item">
@@ -181,15 +198,14 @@
             </li>
           </ul>
         </section>
-        <section class="user__info user__info-skills">
+        <section class="user__info user__info-skills" id="english">
           <h2>English Level</h2>
           <p> A2/B1 </p>
-          </ul>
         </section>
       </aside>
     </main>
 
-    <footer>
+    <footer id="footer">
       <div class="footer__year">
         <p>2021</p>
       </div>
@@ -205,5 +221,6 @@
     </footer>
   </div>
    <script src="https://kit.fontawesome.com/e024017558.js" crossorigin="anonymous"></script>
+   <script src="assets/script.js"></script>
 </body>
 </html>
