@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,9 +13,80 @@
 </head>
 <body>
   <div class="container">
-    <header id="page-header"></header>
-    <main id="main-section"></main>
-    <footer id="page-footer"></footer>
+    <header>
+      <div class="header__title">
+        <h1 id="main_header"> Kupryianau Ivan </h1>
+        <h class="header__subtitle"> I'm beginner software developer </h>
+      </div>
+      <img class="profile__photo" src="assets/myPhoto.png" alt="profile-photo">
+    </header>
+
+    <main class="user__info_section">
+      <div class="section__left">
+        <section class="user__info user__info-about_me">
+          <h2>About Me</h2>
+          <p> Hello, my name is Ivan, i’m 23 years old beginner software developer from Belarus. 
+          <p>I have tried to make some websites at shopify, wordpress, it very interesting experience. Now i decide to learn “how to make it by my hands and fingers!”.</p> 
+          <p>Currently i taking courses by A1Q1, Junior QA Engineer, because i was very interested how testing process looks like.</p>
+        </section>
+
+        <section class="user__info user__info-education">
+          <h2>Education: </h2>
+          <ul class="education__list">
+            <li class="education__item"></li>
+            <li class="education__item">College</li>
+            <li class="education__item">FreeCodeCamp</li>
+          </ul>
+        </section>
+
+        <section class="user__info user__info-expirience">
+          <h2>Experience: </h2>
+          <ul class="education__list">
+            <li class="education__item">1</li>
+            <li class="education__item">2</li>
+            <li class="education__item">3</li>
+          </ul>
+        </section>
+
+        <section class="user__info user__info-code">
+          <h2>Code Examples: </h2>
+          <ul class="education__list">
+            <li class="education__item">1</li>
+            <li class="education__item">2</li>
+            <li class="education__item">3</li>
+          </ul>
+        </section>
+      </div>
+      <aside>
+        <section class="user__info user__info-contacts">
+          <h2>Contacts</h2>
+          <ul class="concacts__list">
+            <li class="item">Telegram</li>
+            <li class="item">E-mail</li>
+            <li class="item">skype</li>
+          </ul>
+        </section>
+        <section class="user__info user__info-skills">
+          <h2>Skills</h2>
+          <ul class="concacts__list">
+            <li class="item">HTML</li>
+            <li class="item">css</li>
+            <li class="item">JS</li>
+          </ul>
+        </section>
+        <section class="user__info user__info-skills">
+          <h2>English Level</h2>
+          <p> A2/B1 </p>
+          </ul>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="footer__year">2021</div>
+      <div class="footer__year">GitHub</div>
+      <div class="footer__year">RSSCHool</div>
+    </footer>
   </div>
 </body>
 </html>
