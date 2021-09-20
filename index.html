@@ -16,6 +16,23 @@
 </head>
 <body>
   <div class="container">
+    <div class="burger__menu">
+      <nav class="nav__menu">
+        <ul class="header__list">
+          <li class="item"><a href="#about_me">About_me</a></li>
+          <li class="item"><a href="#education">Education</a></li>
+          <li class="item"><a href="#experience">Experience</a></li>
+          <li class="item"><a href="#code">Code_examples</a></li>
+        </ul>
+
+        <div class="burger">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+
+      </nav>
+    </div>
     <header>
       <div class="header__title">
         <h1 id="main_header"> Kupryianau Ivan </h1>
@@ -26,14 +43,14 @@
 
     <main class="user__info_section">
       <div class="section__left">
-        <section class="user__info user__info-about_me">
+        <section class="user__info user__info-about_me" id="about_me">
           <h2>About Me</h2>
           <p> Hello, my name is Ivan, i’m 23 years old beginner software developer from Belarus. 
           <p>I have tried to make some websites at shopify, wordpress, it very interesting experience. Now i decide to learn “how to make it by my hands and fingers!”.</p> 
           <p>Currently i taking courses by A1Q1, Junior QA Engineer, because i was very interested how testing process looks like.</p>
         </section>
 
-        <section class="user__info user__info-education">
+        <section class="user__info user__info-education" id="education">
           <h2>Education: </h2>
           <ul class="user__info_list user__info_list-education">
             <li class="user__info_list-item"><pre><b>MCB</b> (Minsk College of Business):
@@ -68,7 +85,7 @@
           </ul>
         </section>
 
-        <section class="user__info user__info-experience">
+        <section class="user__info user__info-experience" id="experience">
           <h2>Experience: </h2>
           <div class="user__info-grid">
             <a href="https://codepen.io/kuperivan/pen/KKaGgdE" target="_blank" rel="noopener noreferrer">
@@ -124,7 +141,7 @@
           </div>
         </section>
 
-        <section class="user__info user__info-code">
+        <section class="user__info user__info-code" id="code">
           <h2>Code Examples: </h2>
           <div>
             <pre>
@@ -141,7 +158,7 @@
         </section>
       </div>
       <aside>
-        <section class="user__info user__info-contacts">
+        <section class="user__info user__info-contacts" id="contacts">
           <h2>Contacts</h2>
           <ul class="user__info_list user__info_list-contacts">
             <li class="user__info_list-item">
@@ -161,7 +178,7 @@
             </li>
           </ul>
         </section>
-        <section class="user__info user__info-skills">
+        <section class="user__info user__info-skills" id="skills">
           <h2>Skills</h2>
           <ul class="user__info_list user__info_list-skills">
             <li class="user__info_list-item">
@@ -181,14 +198,14 @@
             </li>
           </ul>
         </section>
-        <section class="user__info user__info-skills">
+        <section class="user__info user__info-skills" id="english">
           <h2>English Level</h2>
           <p> A2/B1 </p>
         </section>
       </aside>
     </main>
 
-    <footer>
+    <footer id="footer">
       <div class="footer__year">
         <p>2021</p>
       </div>
@@ -204,5 +221,6 @@
     </footer>
   </div>
    <script src="https://kit.fontawesome.com/e024017558.js" crossorigin="anonymous"></script>
+   <script src="assets/script.js"></script>
 </body>
 </html>
