@@ -184,6 +184,7 @@ header {
 aside {
   width: 30%;
   padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .user__info_list-item > a > i {
@@ -197,5 +198,29 @@ aside {
   transition: all 0.5s ease;
 }
 
+.user__info_list-skills > li > i {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.user__info_list-skills > li:hover {
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
 
 /* Aside section end */
+
+
+/* keyframes */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
